@@ -7,7 +7,7 @@ void tulostaTiedosto(char *aNimi);
 
 int main(int argc, char **argv) {
 	if (argc < 2) {
-		printf("my-cat: tiedostoa ei voitu avata.\n");
+		printf("my-cat: komennon käyttö my-cat <tiedostot>\n");
 		exit(0);
 	}
 	
