@@ -37,9 +37,6 @@ void haeRivit(char *aHaku, FILE *Tiedosto) {
 	char *aRivi = NULL;
 	size_t iPituus = 0;
 	char *ptr1 = NULL, *ptr2 = NULL;
-	int iPituusHaku = 0;
-
-	iPituusHaku = strlen(aHaku);
 
 	while (getline(&aRivi, &iPituus, Tiedosto) != -1) {
 		ptr1 = aRivi;
